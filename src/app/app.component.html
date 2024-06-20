@@ -1,0 +1,32 @@
+
+<section class="main">
+  <!-- <h1>Making Cards Using *ngFor</h1> -->
+  <h1>Display cards with even userId</h1>
+  <div class="container">
+    <div class="main-inner" >
+      <!-- <div class="card" *ngFor="let s of students"> -->
+      <div class="" *ngFor="let o of obj">
+        <!-- <ul>
+          <li>ID: {{s.id}}</li>
+          <li>Name: {{s.name}}</li>
+          <li>Gender: {{s.gender}}</li>
+          <li>Age: {{s.age}}</li>
+          <li>course: {{s.course}}</li>
+        </ul> -->
+
+
+         <ul *ngIf="o.userId % 2 == 0">
+          <li >ID: {{o.userId}}</li>
+          <li>Name: {{o.username}}</li>
+          <li >Catalog: {{o.catalogs.slugs}}</li>
+        </ul>
+        
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<router-outlet />

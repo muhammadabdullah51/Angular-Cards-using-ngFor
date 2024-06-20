@@ -1,0 +1,31 @@
+body,html{
+    padding: 0;margin: 0;
+}
+.main{
+    text-align: center;
+}
+.main-inner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #a09999;
+    padding: 40px;
+}
+.card{
+    background-color: #ff9100;
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;width: 200px;
+}
+.card ul{
+    margin: 0;padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.card ul li{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
